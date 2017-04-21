@@ -17,20 +17,26 @@ body {
 }
 
 .ad {
-  box-sizing: border-box;
+
+/*  box-sizing: border-box;
   margin-right: 2em;
   margin-left: 2em;
   margin-top: 10px;
   border-radius: 3px;
-  border: 1px solid rgb(233,235,238);
+  border: 1px solid rgb(233,235,238);*/
 }
 
-header {
+.panel-body {
+  padding: 10px;
+}
+
+
+/*header {
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
   height: 60px;
   padding: 10px;
-}
+}*/
 
 .profile-pic {
   height: 40px;
@@ -39,9 +45,8 @@ header {
 }
 
 .adImage {
-  box-sizing: border-box;
-  margin: 0.5em;
-  border-radius: 5px;
+  /*box-sizing: border-box;*/
+  /*border-radius: 5px;*/
   border: 1px solid rgb(233,235,238);
 }
 

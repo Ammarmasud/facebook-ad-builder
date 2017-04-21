@@ -31,29 +31,32 @@
     Ad Image: <br>
     <br>
 
-    <div class='ad'>
+    <div class='ad panel panel-default'>
+      <div class='panel-body'>
+        <header>
+          <img class="profile-pic" src="images/profilePic.png">
+          {{storeName}}<br>
+          Sponsored
+        </header>
+        <br>
 
-      <header>
-        <img class="profile-pic" src="images/profilePic.png">
-        <h6>{{storeName}}</h6>
-        <h6>Sponsored</h6>
-      </header>
+        {{adText}}
 
-      {{adText}}
+        <div class='adImage panel'>
+          <img src="images/samplePic.png" class="fullPic">
+          {{urlTitle}}<br>
+          {{urlDescription}}<br>
+          {{url}}
+        </div>
 
-      <div class='adImage'>
-        <img src="images/samplePic.png" class="fullPic">
-        {{urlTitle}}<br>
-        {{urlDescription}}<br>
-        {{url}}
+        5 comments 17 shares
       </div>
 
-      5 comments 17 shares
-      <footer>
+      <div class="panel-footer">
         Like
         Comment
         Share
-      </footer>
+      </div>
 
     <div>
   </div>
