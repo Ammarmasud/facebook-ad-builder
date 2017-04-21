@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
 </head>
 <body>
 
-  <div ng-app="myApp" ng-controller="myCtrl">
+  <div ng-app="myApp" ng-controller="myCtrl" class="container">
     Store Name: <input type="text" ng-model="storeName"><br>
     Ad Text: <input type="text" ng-model="adText"><br>
     URL: <input type="text" ng-model="url"><br>
@@ -13,11 +17,15 @@
     URL - Description: <input type="text" ng-model="urlDescription"><br>
     Ad Image: <br>
     <br>
-    {{storeName}}<br>
-    {{adText}}<br>
-    {{url}}<br>
-    {{urlTitle}}<br>
-    {{urlDescription}}<br>
+
+    <div>
+      <img src="samplePic.png" class="img-rounded" alt="Cinque Terre" width="304" height="236"><br>
+      {{storeName}}<br>
+      {{adText}}<br>
+      {{url}}<br>
+      {{urlTitle}}<br>
+      {{urlDescription}}
+    <div>
   </div>
 
   <script src="app.js"></script>
