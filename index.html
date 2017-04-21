@@ -7,12 +7,13 @@
   <link rel="stylesheet" href="styles/normalize-4.1.1.css" type="text/css" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
   <!-- App CSS -->
   <link rel="stylesheet" href="styles/app.css" type="text/css" />
 
   <!-- External JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
 
   <!-- App JS -->
@@ -30,13 +31,30 @@
     Ad Image: <br>
     <br>
 
-    <div>
-      <img src="images/samplePic.png" class="img-rounded" alt="Cinque Terre" width="304" height="236"><br>
-      {{storeName}}<br>
-      {{adText}}<br>
-      {{url}}<br>
-      {{urlTitle}}<br>
-      {{urlDescription}}
+    <div class='ad'>
+
+      <header>
+        <img class="profile-pic" src="images/profilePic.png">
+        <h6>{{storeName}}</h6>
+        <h6>Sponsored</h6>
+      </header>
+
+      {{adText}}
+
+      <div class='adImage'>
+        <img src="images/samplePic.png" class="fullPic">
+        {{urlTitle}}<br>
+        {{urlDescription}}<br>
+        {{url}}
+      </div>
+
+      5 comments 17 shares
+      <footer>
+        Like
+        Comment
+        Share
+      </footer>
+
     <div>
   </div>
 

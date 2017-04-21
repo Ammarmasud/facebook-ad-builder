@@ -15,3 +15,49 @@ body {
   margin: auto;
   padding: 2em;
 }
+
+.ad {
+  box-sizing: border-box;
+  margin-right: 2em;
+  margin-left: 2em;
+  margin-top: 10px;
+  border-radius: 3px;
+  border: 1px solid rgb(233,235,238);
+}
+
+header {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  height: 60px;
+  padding: 10px;
+}
+
+.profile-pic {
+  height: 40px;
+  width: 40px;
+  float: left;
+}
+
+.adImage {
+  box-sizing: border-box;
+  margin: 0.5em;
+  border-radius: 5px;
+  border: 1px solid rgb(233,235,238);
+}
+
+.fullPic {
+  display: block;
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+footer {
+  background-color: rgb(243,243,243);
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  height: 40px;
+  padding: 10px;
+}
+
+
