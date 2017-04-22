@@ -1,0 +1,113 @@
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #eee;
+}
+
+.container {
+  width: 400px;
+  background-color: white;
+  margin: auto;
+  padding: 2em;
+}
+
+.panel-body {
+  padding: 10px 10px 5px;
+}
+
+.profile-pic {
+  height: 40px;
+  width: 40px;
+  float: left;
+}
+
+h5, h6 {
+  margin: 3px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  text-overflow: ellipsis;
+}
+
+h5.header {
+  margin: 0px;
+  padding: 3px;
+}
+
+.media-right.header {
+  padding-right: 10px;
+}
+
+.big-icon {
+  font-size: 30px;
+  color: rgb(193,199,208);
+}
+
+p {
+  margin: 5px 0;
+}
+
+.grey {
+  color: rgb(144,148,156)
+}
+
+.fullPic-container {
+  display: block;
+  height: 165px;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+  overflow: hidden;
+}
+
+.fullPic {
+  width: 100%;
+}
+
+.adImage-btn-container {
+  vertical-align: middle;
+  line-height: 50px;
+}
+
+.adImage-text-container {
+  padding-bottom: 5px;
+}
+
+.ad-btn {
+  background: linear-gradient(rgb(252,352,352), rgb(240,241,242));
+}
+
+.adImage-content {
+  padding: 5px;
+}
+
+.media {
+  margin: 0px;
+}
+
+.alignTwoThirds {
+  float: left;
+  width:66.66666%;
+  text-align:left;
+}
+
+.alignThird {
+  float: left;
+  width:33.33333%;
+  text-align:center;
+}
+
+.panel-default {
+  margin-bottom: 8px;
+}
+
+.panel-footer {
+  padding: 8px 0px;
+}
+
+.cl {
+    clear: both;
+}
