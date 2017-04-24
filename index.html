@@ -29,7 +29,12 @@
     URL: <input type='text' ng-model='url' class='form-control' maxlength='60'><br>
     URL - Title: <input type='text' ng-model='urlTitle' class='form-control' maxlength='30'><br>
     URL - Description: <input type='text' ng-model='urlDescription' class='form-control' maxlength='60'><br>
-    Ad Image: <br>
+    Ad Image:
+    <select ng-model='selectedImage' ng-init='selectedImage = "figTart.png"'>
+      <option value='apples.jpg'>apples</option>
+      <option value='oranges.jpg'>oranges</option>
+      <option selected value='figTart.png'>Fig Tart</option>
+    </select><br>
     <br>
 
     <div class='panel panel-default'>
@@ -56,7 +61,7 @@
 
         <div class='panel panel-default'>
           <div class='fullPic-container'>
-            <img src='images/samplePic.png' class='fullPic'>
+            <img src='images/{{selectedImage}}' class='fullPic'>
           </div>
 
           <div class='adImage-content'>
