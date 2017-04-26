@@ -6,4 +6,5 @@ app.controller('myCtrl', function($scope) {
   $scope.url="www.jaspers-market.com";
   $scope.urlTitle="Fig Tart with Almonds";
   $scope.urlDescription="The simplicity of this tart perfectly...";
+  $scope.selectedImage;
 });

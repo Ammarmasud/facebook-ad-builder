@@ -1,0 +1,19 @@
+{
+  "name": "facebook-ad-builder",
+  "version": "1.0.0",
+  "description": "This is a project to learn the basics of AngularJS 1.x. It is a simple ad builder for Facebook that includes a way to pick images (picking from a pre-canned list), and edit text for the various components of the ad.  Data into a preview that updates live as the fields are edited and very closely match what is [on Facebook](https://www.facebook.com/business/ads-guide).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ammarmasud/facebook-ad-builder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ammarmasud/facebook-ad-builder/issues"
+  },
+  "homepage": "https://github.com/Ammarmasud/facebook-ad-builder#readme",
+  "dependencies": {
+    "mocha": "^3.3.0"
+  }
+}
