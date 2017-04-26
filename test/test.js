@@ -1,14 +1,16 @@
+const jsdom = require('mocha-jsdom');
+const expect = require('chai').expect;
 
-describe('Array', function() {
-  beforeEach(module('app'));
+describe('mocha tests', function () {
 
-  describe('#indexOf()', function() {
-    it('should return -1 when the value is not present', function() {
+  jsdom();
 
-      assert.equal(-1, [1,2,3].indexOf(4));
-    });
-  });
-});
+  it('has document', function () {
+    var div = document.createElement('div')
+    expect(div.nodeName).eql('DIV')
+  })
+
+})
 
 
 

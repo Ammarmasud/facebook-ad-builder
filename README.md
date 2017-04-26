@@ -10,3 +10,12 @@ This project does not include a backend. The focus was on AngularJS and presenta
 1. Git clone this repo.
 
 2. Open index.html using your browser of choice (as long as your choice is not IE).
+
+---
+
+## Testing
+
+For testing, I used mocha-jsdom. Note mocha-jsdom uses the old jsdom api, you will need to go into `node_modules/mocha-jsdom/index.js` (Don't forget to `npm install` first) and change line 52 from:
+`require('jsdom').env(`
+to:
+`require('jsdom/lib/old-api.js').env(`
