@@ -7,20 +7,19 @@
     "type": "git",
     "url": "git+https://github.com/Ammarmasud/facebook-ad-builder.git"
   },
-  "scripts": {
-    "test": "mocha"
-  },
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Ammarmasud/facebook-ad-builder/issues"
   },
   "homepage": "https://github.com/Ammarmasud/facebook-ad-builder#readme",
-  "dependencies": {},
-  "devDependencies": {
-    "chai": "^3.5.0",
-    "jsdom": "^10.0.0",
-    "mocha": "^3.3.0",
-    "mocha-jsdom": "^1.1.0"
-  }
+  "dependencies": {
+    "angular": "^1.6.4",
+    "angular-mocks": "^1.6.4",
+    "jasmine-core": "^2.6.0",
+    "karma": "^1.6.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.4"
+  },
+  "devDependencies": {}
 }
