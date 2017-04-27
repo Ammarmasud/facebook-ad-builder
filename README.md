@@ -15,7 +15,6 @@ This project does not include a backend. The focus was on AngularJS and presenta
 
 ## Testing
 
-For testing, I used mocha-jsdom. Note mocha-jsdom uses the old jsdom api, you will need to go into `node_modules/mocha-jsdom/index.js` (Don't forget to `npm install` first) and change line 52 from:
-`require('jsdom').env(`
-to:
-`require('jsdom/lib/old-api.js').env(`
+Karma and Jasmine were used for testing ad preview changes with input field variable changes. To run test:
+`npm install`
+`karma start my.conf.js`
